@@ -1,0 +1,77 @@
+name: GO Integration Test - GitHub Publish 
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: unit-test
+      run: go test ./... --cover
+  format:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: format
+      run: go fmt ./...
+    - name: verify
+      run: git diff --name-only --exit-code
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: generate
+      run: go run pkg/generator/step-metadata.go
+    - name: verify
+      run: git diff --name-only --exit-code
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: cleanup dependencies
+      run: go mod tidy
+    - name: verify
+      run: git diff --name-only --exit-code
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: build
+      env:
+        CGO_ENABLED: 0
+      # with `-tags release` we ensure that shared test utilities won't end up in the binary
+      run: go build -o piper -tags release
+    - name: test
+      env:
+        PIPER_INTEGRATION_GITHUB_TOKEN: abcd1234
+#        PIPER_INTEGRATION_GITHUB_OWNER: rodibrin
+#        PIPER_INTEGRATION_GITHUB_REPOSITORY: jenkins-library
+      run: go test -tags=integration ./integration/integration_api_test.go ./integration/integration_test.go
+  
