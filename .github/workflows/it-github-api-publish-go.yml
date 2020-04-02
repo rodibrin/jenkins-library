@@ -65,7 +65,7 @@ jobs:
     - name: test
       env:
         PIPER_INTEGRATION_GITHUB_TOKEN: abcd1234
-#        PIPER_INTEGRATION_GITHUB_OWNER: rodibrin
-#        PIPER_INTEGRATION_GITHUB_REPOSITORY: jenkins-library
+        PIPER_INTEGRATION_GITHUB_OWNER: rodibrin
+        PIPER_INTEGRATION_GITHUB_REPOSITORY: jenkins-library
       run: go test -tags=integration ./integration/integration_api_test.go ./integration/integration_test.go
   
