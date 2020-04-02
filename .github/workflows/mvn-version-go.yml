@@ -1,0 +1,13 @@
+name: GO Integration Test - Show maven version 
+
+on: [push]
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-go@v1
+      with:
+        go-version: '1.13.x'
+    - name: maven-version
+      run: mvn -version
