@@ -8,7 +8,7 @@ require (
 	github.com/bmatcuk/doublestar v1.2.2
 	github.com/docker/docker v1.4.2-0.20200114201811-16a3519d870b // indirect
 	github.com/ghodss/yaml v1.0.0
-	github.com/google/go-cmp v0.3.1
+	github.com/google/go-cmp v0.4.0
 	github.com/google/go-containerregistry v0.0.0-20200131185320-aec8da010de2
 	github.com/google/go-github/v28 v28.1.1
 	github.com/google/uuid v1.1.1
