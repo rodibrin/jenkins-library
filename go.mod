@@ -14,7 +14,7 @@ require (
 	github.com/docker/docker v1.4.2-0.20200114201811-16a3519d870b // indirect
 	github.com/getsentry/sentry-go v0.6.0
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-git/go-git/v5 v5.0.0
+	github.com/go-git/go-git/v5 v5.1.0
 	github.com/go-openapi/runtime v0.19.11
 	github.com/go-openapi/strfmt v0.19.4
 	github.com/gogo/protobuf v1.3.1 // indirect
@@ -24,7 +24,6 @@ require (
 	github.com/google/go-github/v28 v28.1.1
 	github.com/google/uuid v1.1.1
 	github.com/huandu/xstrings v1.3.0 // indirect
-	github.com/imdario/mergo v0.3.9 // indirect
 	github.com/magiconair/properties v1.8.0
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/motemen/go-nuts v0.0.0-20190725124253-1d2432db96b0
