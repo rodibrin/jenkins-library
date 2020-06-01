@@ -15,7 +15,7 @@ require (
 	github.com/getsentry/sentry-go v0.6.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-git/v5 v5.0.0
-	github.com/go-openapi/runtime v0.19.11
+	github.com/go-openapi/runtime v0.19.15
 	github.com/go-openapi/strfmt v0.19.4
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.0 // indirect
