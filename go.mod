@@ -25,7 +25,7 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/huandu/xstrings v1.3.0 // indirect
 	github.com/imdario/mergo v0.3.9 // indirect
-	github.com/magiconair/properties v1.8.0
+	github.com/magiconair/properties v1.8.2
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/motemen/go-nuts v0.0.0-20190725124253-1d2432db96b0
 	github.com/piper-validation/fortify-client-go v0.0.0-20200206215926-532b5b150d22
