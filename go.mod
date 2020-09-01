@@ -9,7 +9,7 @@ require (
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Microsoft/hcsshim v0.8.7 // indirect
-	github.com/bmatcuk/doublestar v1.2.4
+	github.com/bmatcuk/doublestar v1.3.2
 	github.com/containerd/containerd v1.3.4 // indirect
 	github.com/docker/docker v1.4.2-0.20200114201811-16a3519d870b // indirect
 	github.com/getsentry/sentry-go v0.6.0
