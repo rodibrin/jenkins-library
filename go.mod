@@ -15,8 +15,8 @@ require (
 	github.com/getsentry/sentry-go v0.6.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-git/v5 v5.0.0
-	github.com/go-openapi/runtime v0.19.11
-	github.com/go-openapi/strfmt v0.19.4
+	github.com/go-openapi/runtime v0.19.22
+	github.com/go-openapi/strfmt v0.19.5
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.0 // indirect
 	github.com/google/go-cmp v0.4.0
@@ -33,10 +33,9 @@ require (
 	github.com/sirupsen/logrus v1.5.0
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.6.1
 	github.com/testcontainers/testcontainers-go v0.4.0
 	golang.org/x/crypto v0.0.0-20200414173820-0848c9571904 // indirect
-	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
