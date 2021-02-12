@@ -27,7 +27,7 @@ require (
 	github.com/go-openapi/strfmt v0.19.5
 	github.com/go-openapi/validate v0.19.11 // indirect
 	github.com/golang/snappy v0.0.2 // indirect
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.4
 	github.com/google/go-containerregistry v0.1.3
 	github.com/google/go-github/v32 v32.1.0
 	github.com/google/uuid v1.1.2
