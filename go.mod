@@ -22,7 +22,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-billy/v5 v5.0.0
 	github.com/go-git/go-git/v5 v5.1.0
-	github.com/go-openapi/runtime v0.19.22
+	github.com/go-openapi/runtime v0.19.26
 	github.com/go-openapi/spec v0.19.9 // indirect
 	github.com/go-openapi/strfmt v0.19.5
 	github.com/go-openapi/validate v0.19.11 // indirect
