@@ -24,7 +24,7 @@ require (
 	github.com/go-git/go-git/v5 v5.1.0
 	github.com/go-openapi/runtime v0.19.22
 	github.com/go-openapi/spec v0.19.9 // indirect
-	github.com/go-openapi/strfmt v0.19.5
+	github.com/go-openapi/strfmt v0.20.0
 	github.com/go-openapi/validate v0.19.11 // indirect
 	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/go-cmp v0.5.2
@@ -54,7 +54,6 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
 	github.com/testcontainers/testcontainers-go v0.5.1
-	go.mongodb.org/mongo-driver v1.4.1 // indirect
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0 // indirect
 	golang.org/x/mod v0.3.0
 	golang.org/x/net v0.0.0-20201002202402-0a1ea396d57c // indirect
