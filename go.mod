@@ -18,7 +18,7 @@ require (
 	github.com/elliotchance/orderedmap v1.3.0
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/frankban/quicktest v1.10.0 // indirect
-	github.com/getsentry/sentry-go v0.7.0
+	github.com/getsentry/sentry-go v0.10.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-git/go-billy/v5 v5.0.0
 	github.com/go-git/go-git/v5 v5.1.0
