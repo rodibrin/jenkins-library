@@ -52,7 +52,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.7.0
 	github.com/smartystreets/assertions v1.0.0 // indirect
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
 	github.com/testcontainers/testcontainers-go v0.5.1
@@ -67,5 +67,5 @@ require (
 	google.golang.org/grpc v1.32.0 // indirect
 	gopkg.in/ini.v1 v1.61.0
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
-	gopkg.in/yaml.v2 v2.3.0
+	gopkg.in/yaml.v2 v2.4.0
 )
