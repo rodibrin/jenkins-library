@@ -15,7 +15,7 @@ require (
 	github.com/bndr/gojenkins v1.0.1
 	github.com/containerd/containerd v1.4.1 // indirect
 	github.com/docker/docker v1.4.2-0.20200114201811-16a3519d870b // indirect
-	github.com/elliotchance/orderedmap v1.3.0
+	github.com/elliotchance/orderedmap v1.4.0
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/frankban/quicktest v1.10.0 // indirect
 	github.com/getsentry/sentry-go v0.7.0
@@ -54,7 +54,7 @@ require (
 	github.com/smartystreets/assertions v1.0.0 // indirect
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/testcontainers/testcontainers-go v0.5.1
 	go.mongodb.org/mongo-driver v1.4.1 // indirect
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0 // indirect
