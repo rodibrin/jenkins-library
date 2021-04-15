@@ -154,6 +154,9 @@ func transportRequestUploadSOLMANMetadata() config.StepData {
 		},
 		Spec: config.StepSpec{
 			Inputs: config.StepInputs{
+				Resources: []config.StepResources{
+					{Name: "git", Type: "stash"},
+				},
 				Parameters: []config.StepParameters{
 					{
 						Name:        "endpoint",
