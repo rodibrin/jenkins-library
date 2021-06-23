@@ -4,7 +4,7 @@ import static com.sap.piper.Prerequisites.checkScript
 import com.sap.piper.DownloadCacheUtils
 
 @Field String STEP_NAME = getClass().getName()
-@Field String METADATA_FILE = 'metadata/transportRequestUploadSOLMAN.yaml'
+@Field String METADATA_FILE = 'metadata/transportRequestUploadCTS.yaml'
 
 void call(Map parameters = [:]) {
     final script = checkScript(this, parameters) ?: this
